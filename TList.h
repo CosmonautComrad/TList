@@ -113,6 +113,30 @@ public:
 		size--;
 		pos--;
 	}
+	void DelLast()
+	{
+		if (size == 1)
+		{
+			DelFirst();
+		}
+		else
+		{
+			for (Reset(); !IsEnd(); GoNext())
+			{
+				if (pCurr->pNext->pNext == pStop)
+				{
+					pPrev = pCurr;
+					pLast = pCurr->pNext;
+				}
+			}
+			//TLink <T>* tmp = pPrev;
+			tmp->pNext = pStop;
+			pLast = tmp;
+			delete tmp;
+		}
+		size--;
+		pos--;
+	}
 	void DelCurr()
 	{
 		if (pCurr == pFirst)

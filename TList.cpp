@@ -10,7 +10,8 @@ int main(void)
 	//list.FindMin();
 	//list.FindMax();
 	//list.InsLast(228);
-	list.InsPos(499, 3);
+	//list.InsPos(499, 3);
+	list.DelLast();
 	list.Print();
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
