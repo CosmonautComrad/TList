@@ -1,0 +1,8 @@
+﻿  TList.cpp
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.h(161,14): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.h(194): message :  выполняется компиляция ссылки на экземпляр класс шаблон функции "TList<T>"
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.h(161,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.h(160): message :  во время компиляции функции-члена класс шаблон "void TList<int>::CreateList(int)"
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.cpp(8): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void TList<int>::CreateList(int)"
+C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\ConsoleApplication1\TList.cpp(7): message :  выполняется компиляция ссылки на экземпляр класс шаблон функции "TList<int>"
+  ConsoleApplication1.vcxproj -> C:\Users\chele\OneDrive\Documents\Visual Studio 2019\Projects\TList\Debug\TList.exe
