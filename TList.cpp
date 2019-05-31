@@ -7,9 +7,9 @@ int main(void)
 	TList <int> list;
 	list.CreateList(5);
 	list.Print();
-	//list.FindMin();
-	//list.FindMax();
-	//list.InsLast(228);
+	list.FindMin();
+	list.FindMax();
+	list.InsLast(228);
 	list.InsPos(499, 3);
 	list.Print();
 }
